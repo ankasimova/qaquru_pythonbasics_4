@@ -21,3 +21,6 @@ def find_registration_button_on_login_page(page_url, button_text):
     read_func_name_and_args(find_registration_button_on_login_page, page_url, button_text)
 
 
+open_browser('Chrome')
+go_to_companyname_homepage('https://www.google.com/')
+find_registration_button_on_login_page('https://www.google.com/', 'login')
